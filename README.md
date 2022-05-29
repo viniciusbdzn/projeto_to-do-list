@@ -1,7 +1,7 @@
-#To-do list
+# To-do list
 Neste projeto, iremos criar uma simples lista de tarefas.
 
-#Instruções
+# Instruções
 Antes de clonar o projeto, tente fazer seguindo as instruções abaixo:
 
 Crie um campo de input de texto e um botão para adicionar a tarefa à lista;
