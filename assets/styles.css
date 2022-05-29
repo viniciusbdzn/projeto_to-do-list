@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(157, 248, 251, 0.578);
+}
+
+h1, p {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: #0a0952;
+    font-style: bold;
+    margin: 30px;
+}
+
+#task-form {
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: fit-content;
+}
+
+#task-input {
+    border-radius: 8px;
+    border-color: #0a0952;
+    margin-right: 5px;
+    height: 23px;
+    padding-inline-start: 10px;
+}
+
+#task-input:hover {
+    opacity: 60%;
+}
+
+button {
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 8px;
+    height: 28px;
+    background-color: aqua;
+    color: #0a0952;
+    border-color: #0a0952;
+    opacity: 40%;
+}
+
+button:hover {
+    opacity: 80%;
+    transition: ease-in-out;
+    transition-delay: 0.2s;
+    cursor: pointer;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 130px;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}
+
+
